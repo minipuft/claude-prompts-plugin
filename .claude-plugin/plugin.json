@@ -1,14 +1,14 @@
 {
-  "name": "claude-prompts-plugin",
+  "name": "claude-prompts",
   "version": "1.0.0",
-  "description": "Plugin for claude-prompts MCP - hooks, skills, and commands for CAGEERF prompt engineering",
+  "description": "Reusable prompt templates with quality gates and multi-step workflows for consistent AI outputs",
   "author": {
     "name": "minipuft"
   },
-  "homepage": "https://github.com/minipuft/claude-prompts-plugin",
-  "repository": "https://github.com/minipuft/claude-prompts-plugin",
+  "homepage": "https://github.com/minipuft/claude-prompts-mcp",
+  "repository": "https://github.com/minipuft/claude-prompts-mcp",
   "license": "MIT",
-  "keywords": ["mcp", "prompts", "cageerf", "gates", "chains"],
+  "keywords": ["mcp", "prompts", "templates", "gates", "chains", "workflows"],
   "hooks": "./hooks/hooks.json",
   "mcpServers": "./mcp.json",
   "skills": "./skills",
